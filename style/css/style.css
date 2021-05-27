@@ -97,12 +97,78 @@ body {
   font-weight: 600;
 }
 
+.header_info_text {
+  color: #727272;
+}
+
 .header_info_btn a {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
   background-color: #34547A;
   padding: 25px 40px;
+}
+
+.about_me {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+
+.about_me__inner {
+  display: grid;
+  justify-content: center;
+  margin: 120px 0 100px 0;
+}
+
+.about_me__h {
+  display: grid;
+  justify-content: center;
+}
+.about_me__h h3 {
+  font-size: 32px;
+}
+
+.about_me__t {
+  color: #727272;
+  margin: 10px 330px;
+  text-align: center;
+}
+
+.numbers {
+  width: 100%;
+  background: #34547A;
+  display: flex;
+  justify-content: center;
+}
+
+.numbers_inner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.number_item {
+  display: flex;
+  margin: 100px 25px;
+}
+
+.number_item_icon {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.number_item_text {
+  color: #fff;
+  display: grid;
+  align-content: center;
+}
+
+.number_item_number, .number_item__name_project {
+  margin: 3px;
 }
 
 /*# sourceMappingURL=style.css.map */
